@@ -1,15 +1,5 @@
 jal main
-#                         CS 240, Lab #5
-#
-#      IMPORTANT NOTES:
-#
-#      Write your assembly code only in the marked blocks.
-#
-#      DO NOT change anything outside the marked blocks.
-#
-#      Remember to fill in your name, Red ID in the designated fields.
-#
-#
+#                 
 #      
 ###############################################################
 #                           Data Section
@@ -210,7 +200,7 @@ jr $ra
 ###############################################################
 .globl threshold
 threshold:
-############################## Part 1: your code begins here ###
+############################## 
 li $t0, 0 #setting t0 to 0
 mul $t1, $a2, $a2 #loop counter limit
 li $t2, 255 #establishes threshold for white
@@ -305,7 +295,7 @@ j iLoop
 
 
 done:
-############################### Part 2: your code ends here  ##
+############################### 
 jr $ra
 ###############################################################
 ###############################################################
@@ -316,7 +306,7 @@ jr $ra
 ###############################################################
 .globl cryptography
 cryptography:
-############################## Part 3: your code begins here ###
+############################## 
 
 li $t0, 0 #setting loop counter to 0
 mul $t1, $a2, $a2 #loop counter limit a2 * a2
